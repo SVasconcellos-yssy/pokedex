@@ -1,0 +1,42 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+body {
+   
+background-image: linear-gradient(darkviolet, indigo);
+    text-align: center;
+    color:white;
+    background-repeat: no-repeat;
+    background-size: 1000rem ;
+  
+   
+}
+
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+  
+}
+
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
+@media screen and (min-width: 1340px) {
+    .content {
+        max-width: 100VW;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
